@@ -12,3 +12,11 @@ Minimal setup for setting up github pages on GitHub
 8. Create index.html with root
 9. Prettify before build `npx prettier --write .`
 10. Build the app `npm run build`
+
+---
+
+## Common issues
+
+- Activate page settings in repository
+- Make sure index.html works with script loading inside dist folder
+- Check the path for script module inside index.html
